@@ -61,7 +61,7 @@ if __name__ == "__main__":
     for item in extracted_texts1:
         print("-", item)
     print("Total:", c1)
-    c1 = 35
+    
     # Second CSS: check date
     css_selector2 = "dl.timeline-item__meta dd:not([class])"
     extracted_texts2 = extract_text_by_css_selector(url, css_selector2)
