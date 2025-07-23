@@ -74,7 +74,7 @@ if __name__ == "__main__":
             break
   
     # Trigger email alert
-    if c1 > 33 or c2_valid_date:
+    if c1 > 34 or c2_valid_date:
         subject = "⚠️ USMCA Alert: Condition Met"
         body = f"Triggered because:\n- Items count: {c1}\n- Recent date found: {c2_valid_date}"
         send_email(subject, body, EMAIL_TO)  # 👈 Change to recipient email
